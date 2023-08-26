@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Jess Xu - Hello, I'm Jess!",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    description: `I'm currently in school and constantly learning about programming. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
@@ -29,7 +29,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           href={`https://yourwebsite.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Jess Xu" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
