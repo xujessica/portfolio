@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left md:px-10">
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="rounded-md shadow-md bg-[#1f2937] p-10 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-20 pt-40">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -21,7 +21,7 @@ export default function Contact() {
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#1f2937] hover:border hover:border-stone-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -39,7 +39,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#1f2937] hover:border hover:border-stone-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -54,7 +54,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#1f2937] hover:border hover:border-stone-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -72,7 +72,7 @@ export default function Contact() {
             </div>
             <div className="social-icons flex flex-row space-x-8">
               <a
-                href={userData.socialLinks.facebook}
+                href={userData.socialLinks.github}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
@@ -84,28 +84,8 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
                     fill="currentColor"
-                  />
-                </svg>
-              </a>
-              <a
-                href={userData.socialLinks.twitter}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  className="text-gray-50"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z"
-                    fill="currentColor"
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"
                   />
                 </svg>
               </a>
@@ -135,6 +115,24 @@ export default function Contact() {
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <a
+                href={userData.socialLinks.linkedin}
+                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  className="text-gray-50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"
                     fill="currentColor"
                   />
                 </svg>
