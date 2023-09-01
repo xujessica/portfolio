@@ -35,14 +35,8 @@ export default function AboutMe() {
               </p>
             ))}
             <div className="pt-6">
-              {/* <a
-                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-                href={userData.resumeUrl}
-              >
-                Download my resume
-              </a> */}
               <Link
-                href={userData.resumeUrl}
+                href={userData.resume}
                 className="w-64 mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-l font-semibold flex flex-row  items-stretch dark:text-gray-700"
               >
                 <p>Download my resume</p>

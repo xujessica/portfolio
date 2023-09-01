@@ -88,8 +88,7 @@ const userData = {
       desc: "Learned Java and Mobile App Development. Also, played some volleyball.",
     },
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+  resume: "/resume.pdf",
   socialLinks: {
     instagram: "https://instagram.com/xujessicaa",
     linkedin: "https://linkedin.com/in/jessicaxxu",
