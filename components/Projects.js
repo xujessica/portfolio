@@ -12,7 +12,7 @@ export default function Projects() {
       {/* Grid starts here */}
       <div>
         <div className="bg-[#F1F1F1] dark:bg-gray-900 md:px-10 -mt-10">
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 py-20 pb-30">
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 py-20">
             <div className="col-span-2 md:col-span-2">
               {userData.projects.map((proj, idx) => (
                 <ProjectCard
@@ -68,7 +68,7 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
-    <div className="py-10">
+    <div className="pb-12 py-10">
       <a href={link} className="w-full block shadow-2xl">
         <div className="relative overflow-hidden">
           <div className="h-72 object-cover">
@@ -92,7 +92,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
 
 const ProjectDescriptionCard = ({ title, description }) => {
   return (
-    <div className="pb-24 md:px-10">
+    <div className="pb-36 md:px-10">
       <p
         className="leading-loose text-2xl md:text-4xl font-semibold text-center md:text-left"
         style={{ lineHeight: "3rem" }}

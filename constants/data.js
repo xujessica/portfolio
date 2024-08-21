@@ -1,12 +1,33 @@
 const userData = {
-  githubUsername: "xujessicaa",
+  githubUsername: "xujessica",
   name: "Jess Xu",
   designation: "Frontend Developer",
   avatarUrl: "/avatar.JPG",
   email: "xujessica02@gmail.com",
   phone: "(847) 909-2927",
-  address: "Madison, WI",
+  address: "Chicago, IL",
   projects: [
+    {
+      title: "Yahtzee",
+      link: "https://github.com/xujessica/yahtzee",
+      imgUrl: "/yahtzeefull.png",
+      description:
+        "This is a final project I worked on with a team for my CS 506: Software Development course. We created our own online version of Yahtzee where the user can play with AI players, play locally, or play against others on different devices. Unfortunately, the code only runs on the campus VPN so only the Github repo is linked.",
+    },
+    {
+      title: "Michelangelo's Case Study",
+      link: "/michelangelos.pdf",
+      imgUrl: "/michelangelos.png",
+      description:
+        "This is case study I worked on in a group for my ART 757: User Experience course in my last semester. The project was to design a mobile app for a local coffee shop that didn't already have one and we created one for Michelangelo's. We followed the design thinking process and presented our study to our class.",
+    },
+    {
+      title: "Closet Calendar",
+      link: "/closetCalendar.pdf",
+      imgUrl: "/closetCalendar.png",
+      description:
+        "This is an Android Studio project where I worked on a team for my CS 407: Mobile App Development course. This application allows users to add outfits as an entry to a calendar. Users can save time when getting dressed and plan ahead or review previous outfits to repeat.",
+    },
     {
       title: "Expense and Budget Tracker",
       link: "https://comfy-paprenjak-2fa4d2.netlify.app/",
@@ -41,12 +62,12 @@ const userData = {
   ],
   about: {
     title:
-      "I'm an aspiring Frontend Software Engineer dedicated to creating fun and creative user experiences",
+      "I'm an aspiring Product Manager dedicated to creating innovative products with efficient user experiences",
     description: [
       `Hi! My name is Jess Xu (she/her).`,
-      `I'm a senior studying computer science and graphic design at University of Wisconsin-Madison. I've always had a passion for art and discovered my love for coding in high school. Frontend development has allowed me to work with both my passions!`,
-      `I have experience working with React, Tailwind, PHP, JavaScript, TypeScript, C, Java, Assembly, and GraphQL. Currently working on learning REST APIs, MySQL, and Next.js.`,
-      `Aside from school I am heavily involved in Camp Kesem which is a student organization that supports kids whose parents have been affected by cancer. In my free time I love traveling and exploring new places, reading, and spending time with my friends and family!`,
+      `I graduated from University of Wisconsin-Madison with a BA in Computer Science and a minor in Graphic Design. I've always had a passion for art and discovered my love for coding in high school. I'm looking for a role that lets me combine both my passions and am interest in product management, business analyst, or UX design positions!`,
+      `I have experience working with React, Tailwind, PHP, JavaScript, TypeScript, C, Java, Assembly, GraphQL, REST APIs, MySQL, Next.js, Jira, and GitLab.`,
+      `During my undergraduate career, I heavily involved in Camp Kesem which is a student organization that supports kids whose parents have been affected by cancer. In my free time I love traveling, exploring new restaurants, reading, and spending time with my friends and family!`,
     ],
     currentProject: "",
     currentProjectUrl: "",
