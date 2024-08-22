@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "xujessica",
   name: "Jess Xu",
-  designation: "Frontend Developer",
+  designation: "Seeking Job Opportunities",
   avatarUrl: "/avatar.JPG",
   email: "xujessica02@gmail.com",
   phone: "(847) 909-2927",
